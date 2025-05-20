@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html  xmlns:th="http://thymeleaf.org">
 	<!-- this is a comment  -->
+	
 <head>
+	
 <meta charset="ISO-8859-1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <title>Let's Create Your Robot!</title>
 <style>
 .container {
@@ -39,12 +44,10 @@ h1 {
 </head>
 <body style="background-color:gray;">
     <div class="container">
-        <a href = "../web/login.html"type="button" >
-            <img src="../images/user-removebg-preview.jpg" alt="user"> 
-        </button></a>
+        <a href = "/login"type="button" ><img src="/images/user-removebg-preview.jpg" alt="user"> </button></a>
        
         
-         <img src="../images/robot.jpg" alt="microcontroler " width= "320" height = "140" >
+         <img src="/images/robot.jpg" alt="microcontroler " width= "320" height = "140" >
     </div>
     	
     <div class = line>
